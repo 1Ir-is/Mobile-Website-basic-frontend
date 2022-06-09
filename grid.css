@@ -1,0 +1,36 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.row-revere {
+    flex-direction: row-reverse;
+}
+
+[class*="col-"] {
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+
+.col-3 {
+    width: 25%;
+}
+
+
+/* medium screen */
+
+@media only screen and (max-width: 1280px) {
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+/* small screen */
+
+@media only screen and (max-width: 750px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+}
